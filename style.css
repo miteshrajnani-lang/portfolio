@@ -163,7 +163,7 @@ p { margin: 0; }
   color: var(--ink);
   transition: transform var(--transition), background var(--transition);
 }
-.theme-toggle:hover { transform: rotate(15deg); }
+.theme-toggle:hover { transform: rotate(180deg); }
 
 .nav-toggle {
   display: none;
