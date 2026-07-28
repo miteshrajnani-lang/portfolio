@@ -36,9 +36,7 @@
   --shadow-card-hover: 0 14px 34px rgba(0, 0, 0, 0.45);
 }
 
-/* =========================================================
-   RESET
-   ========================================================= */
+/*RESET*/
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
@@ -182,9 +180,7 @@ p { margin: 0; }
   transition: transform var(--transition), opacity var(--transition);
 }
 
-/* =========================================================
-   HERO
-   ========================================================= */
+/* HERO */
 .hero {
   max-width: var(--max);
   margin: 0 auto;
@@ -319,9 +315,7 @@ p { margin: 0; }
   .hero-note { display: none; }
 }
 
-/* =========================================================
-   SECTIONS (shared)
-   ========================================================= */
+/*SECTIONS*/
 .section {
   max-width: var(--max);
   margin: 0 auto;
@@ -359,9 +353,7 @@ p { margin: 0; }
   transform: translateY(0);
 }
 
-/* =========================================================
-   ABOUT
-   ========================================================= */
+/*ABOUT*/
 .about-grid {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
@@ -413,9 +405,7 @@ p { margin: 0; }
   .about-grid { grid-template-columns: 1fr; }
 }
 
-/* =========================================================
-   SKILLS
-   ========================================================= */
+/*SKILLS*/
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -451,9 +441,7 @@ p { margin: 0; }
   .skills-grid { grid-template-columns: 1fr; }
 }
 
-/* =========================================================
-   PROJECTS
-   ========================================================= */
+/*PROJECTS*/
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -524,9 +512,7 @@ p { margin: 0; }
 [data-theme="dark"] .project-link { color: var(--accent-yellow); }
 .project-link:hover { text-decoration: underline; }
 
-/* =========================================================
-   CONTACT
-   ========================================================= */
+/*CONTACT*/
 .contact-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
@@ -586,9 +572,7 @@ p { margin: 0; }
   .contact-side { border-left: none; border-top: 1px dashed var(--line); padding-left: 0; padding-top: 24px; }
 }
 
-/* =========================================================
-   FOOTER
-   ========================================================= */
+/*FOOTER*/
 .footer {
   max-width: var(--max);
   margin: 0 auto;
@@ -606,9 +590,7 @@ p { margin: 0; }
 }
 .footer-top:hover { color: var(--ink); }
 
-/* =========================================================
-   MOBILE NAV
-   ========================================================= */
+/*MOBILE NAV*/
 
 @media (max-width: 700px) {
   .nav-toggle { display: flex; }
